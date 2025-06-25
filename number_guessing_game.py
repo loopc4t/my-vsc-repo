@@ -13,7 +13,7 @@ def guessing_game():
 
             guess = input("Guess a number: ")
             guess = int(guess)
-            if chances == 3:  # GIve just 3 guesses
+            if chances == 3:  # Give just 3 guesses
                 print("You are out of chances.")
                 break
             elif guess > random_num:
