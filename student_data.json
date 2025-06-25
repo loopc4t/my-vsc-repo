@@ -1,0 +1,23 @@
+[
+  {
+    "first_name": "Timothy",
+    "last_name": "Perry",
+    "major": "Philosophy",
+    "age": 18,
+    "dormitory": "Redwood Dorm",
+    "clubs": [
+      "Coding Club"
+    ]
+  },
+  {
+    "first_name": "Katherine",
+    "last_name": "Thompson",
+    "major": "Creative Writing",
+    "age": 22,
+    "dormitory": "Aspen Residence",
+    "clubs": [
+      "Psychology Club",
+      "Photography Club"
+    ]
+  }
+]
