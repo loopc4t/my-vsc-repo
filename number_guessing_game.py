@@ -6,14 +6,14 @@ def guessing_game():
     random_num = random.randint(1, 101)
 
     # Numeber of chances
-    chances = 0
+    chances = 0  # Store the number of guesses
 
     while True:  # Create a loop where it runs until the user guess the correct number
         try:  # Create an exception to guarantee the user type just numbers
 
             guess = input("Guess a number: ")
             guess = int(guess)
-            if chances == 3:
+            if chances == 3:  # GIve just 3 guesses
                 print("You are out of chances.")
                 break
             elif guess > random_num:
